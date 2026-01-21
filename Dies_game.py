@@ -48,13 +48,21 @@ while player_1 < WIN_SCORE and player_2 < WIN_SCORE:
 
     roll += 1
 
+
+print(f"Sponsor_Name: {SPONSOR_NAME}")
+print(f"Player 1: {PLAYER_1_NAME}")
+print(f"Player 2: {PLAYER_2_NAME}")
+
 # ---------- Result ----------
 if player_1 > player_2:
     logging.info(f"Winner: {PLAYER_1_NAME}")
+    print(f"Winner: {PLAYER_1_NAME}")
 elif player_2 > player_1:
     logging.info(f"Winner: {PLAYER_2_NAME}")
+    print(f"Winner: {PLAYER_2_NAME}")
 else:
     logging.info("Match Draw")
+    print(f"Match Draw between {PLAYER_1_NAME} and {PLAYER_2_NAME}")
 
 logging.info("Dice game Jenkins job completed")
 print("Dice game completed successfully")
