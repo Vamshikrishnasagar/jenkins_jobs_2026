@@ -3,20 +3,17 @@ import random
 import logging
 import datetime
 
-# ---------- Jenkins Environment ----------
-WORKSPACE = os.environ.get("WORKSPACE", os.getcwd())
 
 SPONSOR_NAME = os.environ.get("SPONSOR_NAME", "Default_Sponsor")
 PLAYER_1_NAME = os.environ.get("PLAYER_1", "Player_1")
 PLAYER_2_NAME = os.environ.get("PLAYER_2", "Player_2")
 
+# ---------- Logging Setup ----------
+WORKSPACE = r'D:\PythonProjects\Jenkins_Jobs\Dies_Game'
+os.makedirs(WORKSPACE, exist_ok=True)
 today_date = datetime.datetime.today().strftime('%Y-%m-%d')
 
-# ---------- Logging Setup ----------
-log_dir = os.path.join(WORKSPACE, "dice_game_logs")
-os.makedirs(log_dir, exist_ok=True)
-
-log_file = os.path.join(log_dir, f"{SPONSOR_NAME}_{today_date}.log")
+log_file = os.path.join(WORKSPACE, f"{SPONSOR_NAME}_{today_date}.log")
 
 logging.basicConfig(
     level=logging.INFO,
