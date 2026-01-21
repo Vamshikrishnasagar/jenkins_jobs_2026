@@ -1,0 +1,14 @@
+2026-01-21 12:15:02,724 - INFO - Dice game Jenkins job started
+2026-01-21 12:15:02,724 - INFO - Sagar | Roll 1 | Die=3 | Total=3
+2026-01-21 12:15:02,724 - INFO - Vamshi | Roll 1 | Die=1 | Total=1
+2026-01-21 12:15:02,724 - INFO - Sagar | Roll 2 | Die=4 | Total=7
+2026-01-21 12:15:02,725 - INFO - Vamshi | Roll 2 | Die=6 | Total=7
+2026-01-21 12:15:02,725 - INFO - Sagar | Roll 3 | Die=4 | Total=11
+2026-01-21 12:15:02,725 - INFO - Vamshi | Roll 3 | Die=5 | Total=12
+2026-01-21 12:15:02,725 - INFO - Sagar | Roll 4 | Die=6 | Total=17
+2026-01-21 12:15:02,726 - INFO - Vamshi | Roll 4 | Die=3 | Total=15
+2026-01-21 12:15:02,727 - INFO - Sagar | Roll 5 | Die=2 | Total=19
+2026-01-21 12:15:02,727 - INFO - Vamshi | Roll 5 | Die=4 | Total=19
+2026-01-21 12:15:02,727 - INFO - Sagar | Roll 6 | Die=3 | Total=22
+2026-01-21 12:15:02,727 - INFO - Winner: Sagar
+2026-01-21 12:15:02,727 - INFO - Dice game Jenkins job completed

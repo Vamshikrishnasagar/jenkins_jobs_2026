@@ -1,0 +1,13 @@
+2026-01-21 11:48:18,529 - INFO - Dice game Jenkins job started
+2026-01-21 11:48:18,530 - INFO - Sai Pavan | Roll 1 | Die=1 | Total=1
+2026-01-21 11:48:18,530 - INFO - Reyaz | Roll 1 | Die=4 | Total=4
+2026-01-21 11:48:18,530 - INFO - Sai Pavan | Roll 2 | Die=3 | Total=4
+2026-01-21 11:48:18,530 - INFO - Reyaz | Roll 2 | Die=4 | Total=8
+2026-01-21 11:48:18,531 - INFO - Sai Pavan | Roll 3 | Die=2 | Total=6
+2026-01-21 11:48:18,531 - INFO - Reyaz | Roll 3 | Die=6 | Total=14
+2026-01-21 11:48:18,531 - INFO - Sai Pavan | Roll 4 | Die=4 | Total=10
+2026-01-21 11:48:18,531 - INFO - Reyaz | Roll 4 | Die=2 | Total=16
+2026-01-21 11:48:18,532 - INFO - Sai Pavan | Roll 5 | Die=6 | Total=16
+2026-01-21 11:48:18,533 - INFO - Reyaz | Roll 5 | Die=6 | Total=22
+2026-01-21 11:48:18,533 - INFO - Winner: Reyaz
+2026-01-21 11:48:18,533 - INFO - Dice game Jenkins job completed
